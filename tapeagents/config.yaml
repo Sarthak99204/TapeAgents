@@ -1,0 +1,15 @@
+# Configuration for 2025 Models
+
+model_config = {
+    "transformer": {
+        "layers": 12,
+        "heads": 8,
+        "dim": 512,
+        "version": "2025.3"
+    },
+    "training": {
+        "batch_size": 32,
+        "learning_rate": 1e-4,
+        "epochs": 100
+    }
+}
